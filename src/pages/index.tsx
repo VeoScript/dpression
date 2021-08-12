@@ -5,10 +5,10 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Amakan</title>
+        <title>Dpression</title>
       </Head>
       <div className="flex flex-row items-center justify-center w-full h-screen">
-        <h1 className="font-bold text-xl text-[#484848]">Welcome to Amakan POS</h1>
+        <h1 className="font-ubuntu text-3xl text-uranus-dim">dpression</h1>
       </div>
     </>
   )
