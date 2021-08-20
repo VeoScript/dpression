@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         <title>Dpression</title>
       </Head>
       <Layout>
-        <h1 className="font-ubuntu text-3xl">dpression</h1>
+        <h1 className="font-poiretone text-5xl">dpression</h1>
       </Layout>
     </>
   )
