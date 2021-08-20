@@ -10,14 +10,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'slate': '#D8E3E7',
-        'uranus': '#51C4D3',
-        'uranus-dim': '#126E82',
-        'uranus-dark': '#132C33',
+        'cyber-white': '#FFFAED',
+        'cyber-black': '#1E1E1E',
+        'cyber-yellow': '#FFE69D',
+        'cyber-dark': '#6A50A7',
+        'cyber-dim': '#8067B7'
       },
       fontFamily: {
         poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
-        ubuntu: ['Ubuntu', ...defaultTheme.fontFamily.sans]
+        ubuntu: ['Ubuntu', ...defaultTheme.fontFamily.sans],
+        poiretone: ['Poiret One', ...defaultTheme.fontFamily.sans]
       }
     },
   },
