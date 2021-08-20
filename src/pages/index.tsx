@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Layout from '~/layouts/default'
 
 const Home: NextPage = () => {
   return (
@@ -7,9 +8,9 @@ const Home: NextPage = () => {
       <Head>
         <title>Dpression</title>
       </Head>
-      <div className="flex flex-row items-center justify-center w-full h-screen">
-        <h1 className="font-ubuntu text-3xl text-uranus-dim">dpression</h1>
-      </div>
+      <Layout>
+        <h1 className="font-ubuntu text-3xl">dpression</h1>
+      </Layout>
     </>
   )
 }
